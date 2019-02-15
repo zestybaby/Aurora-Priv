@@ -1,7 +1,7 @@
-id=Fdroid-Priv
-name=F-Droid Privileged Extension
-version=2018-09-02
-versionCode=15
-author=Ryaniskira
-description=Installs F-Droid Privileged Extension systemlessly
+id=Aurora-Priv
+name=Aurora Services
+version=2019-2-15
+versionCode=1
+author=zestybaby
+description=Installs Aurora Services systemlessly
 minMagisk=17000

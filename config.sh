@@ -40,12 +40,8 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print " ___    ___         _   _ "
-  ui_print "| __>__| . \_ _ ___<_>_| |"
-  ui_print "| _>___| | | '_> . \ / . |"
-  ui_print "|_|    |___/_| \___/_\___|"
-  ui_print "     Magisk installer     "
-  ui_print "      By: Ryaniskira      "
+  ui_print "Aurora Services Magisk Module"
+  ui_print "A fork of F-Droid's privileged extension for Aurora Store"
 }
 
 ##########################################################################################
@@ -54,14 +50,6 @@ print_modname() {
 
 # List all directories you want to directly replace in the system
 # Check the documentations for more info about how Magic Mount works, and why you need this
-
-# This is an example
-REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
 
 # Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
